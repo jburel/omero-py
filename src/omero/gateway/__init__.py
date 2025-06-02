@@ -3828,6 +3828,7 @@ class _BlitzGateway (object):
                 # need to map numpy pixel types to omero - don't handle: bool_,
                 # character, int_, int64, object_
                 pTypes = {'int8': PixelsTypeint8,
+                          'uint8': PixelsTypeuint8,
                           'int16': PixelsTypeint16,
                           'uint16': PixelsTypeuint16,
                           'int32': PixelsTypeint32,
